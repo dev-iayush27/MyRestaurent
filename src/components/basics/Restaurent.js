@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import "./style.css"
 import Menu from "./MenuApi"
 import MenuCard from './MenuCard'
@@ -28,8 +28,8 @@ const Restaurent = () => {
     }
     return (
         <React.Fragment>
-            <NavBar filterItem = {filterItem} menuList = {menuList} />
-            <MenuCard menuData = {menuData}/>
+            <NavBar filterItem={filterItem} menuList={menuList} />
+            <MenuCard menuData={menuData} />
         </React.Fragment>
     )
 }

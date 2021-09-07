@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavBar = ({filterItem, menuList}) => {
+const NavBar = ({ filterItem, menuList }) => {
     return (
         <React.Fragment>
             <nav className="navbar">
